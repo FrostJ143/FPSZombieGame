@@ -1,0 +1,117 @@
+[
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\AmmoCrate.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\AmmoCrate.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\FPSZombie.Build.cs",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\FPSZombie.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\FPSZombie.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\FPSZombieCharacter.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\FPSZombieCharacter.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\FPSZombieGameMode.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\FPSZombieGameMode.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\FPSZombieProjectile.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\FPSZombieProjectile.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\ShooterPlayerController.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\ShooterPlayerController.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\TP_PickUpComponent.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\TP_PickUpComponent.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\TP_WeaponComponent.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\TP_WeaponComponent.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\Zombie.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\Zombie.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\ZombieAIController.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\ZombieAIController.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\ZombieAttackAnimNotify.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\Source\\FPSZombie\\ZombieAttackAnimNotify.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\.vscode\\compileCommands_FPSZombie\\FPSZombie.211.rsp\"",
+		"directory": "D:\\All Games\\Epic Games\\UE_5.0\\Engine\\Source"
+	}
+]

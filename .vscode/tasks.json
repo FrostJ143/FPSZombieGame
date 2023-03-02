@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "FPSZombie Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSZombie Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSZombie Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"Development",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"Development",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSZombie Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"Development",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"Test",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"Test",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSZombie Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"Test",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSZombie Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSZombie",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSZombie HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSZombie HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSZombie HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSZombie HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSZombie HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombie HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSZombie",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombieEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombieEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombieEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombieEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSZombieEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombieEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSZombieEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombieEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombieEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombieEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombieEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSZombieEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombieEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSZombieEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombieEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombieEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombieEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FPSZombieEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSZombieEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "FPSZombieEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FPSZombieEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\sangv\\OneDrive\\Documents\\Unreal Projects\\FPSZombie\\FPSZombie.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\All Games\\Epic Games\\UE_5.0"
+			}
+		}
+	]
+}
